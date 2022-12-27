@@ -33,6 +33,7 @@ public class FacebookIncorrectLogin_1 {
         //Expected: “Log into Facebook”
         String expectedTitle="Log into Facebook";
         String actualTitle= driver.getTitle();
+        System.out.println("actualTitle = " + actualTitle);
         if (actualTitle.equals(expectedTitle)){
             System.out.println("PASSED!");
         }else{
