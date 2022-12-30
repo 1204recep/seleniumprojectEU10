@@ -32,7 +32,7 @@ public class Task3_BackAndFortNavigation {
         }else{
             System.out.println("FAİLED");
         }
-
+        Thread.sleep(4000);
         //5- Go back to Google by using the .back();
         driver.navigate().back();
 
@@ -45,6 +45,7 @@ public class Task3_BackAndFortNavigation {
         }else{
             System.out.println("Title passed");
         }
+        Thread.sleep(4000);
         driver.close();
 
     }

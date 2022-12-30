@@ -34,10 +34,12 @@ public class MyTask {
         emailBox.sendKeys("recepdemirci2000@gmail.com"+ Keys.ENTER);
 
         String expectedResult= "Couldn’t sign you in";
-        WebElement attentionPage= driver.findElement(By.tagName("span"));
+
+        WebElement attentionPage= driver.findElement(By.cssSelector("#headingText > span"));
         String attentionPageTxt= attentionPage.getText();
 
-        System.out.println(attentionPageTxt);//text i alamadım...
+        System.out.println(attentionPageTxt);//text i alamadım...#headingText > span
+        System.out.println(expectedResult);//text i alamadım...#headingText > span
        // System.out.println(expectedResult);
 
 
