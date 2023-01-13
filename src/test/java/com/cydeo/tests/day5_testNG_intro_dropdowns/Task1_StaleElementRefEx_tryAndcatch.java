@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.concurrent.TimeUnit;
 
-public class Task1_StaleElementRefEx {
+public class Task1_StaleElementRefEx_tryAndcatch {
     public static void main(String[] args) throws InterruptedException {
         //TC #1: StaleElementReferenceException handling
         //1. Open Chrome browser
