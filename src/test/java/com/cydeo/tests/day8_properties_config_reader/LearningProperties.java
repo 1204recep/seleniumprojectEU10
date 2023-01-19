@@ -6,11 +6,14 @@ public class LearningProperties {
 
     @Test
     public void java_properties_reading_test(){
-        //key = value
-        //os.name = Mac OS X
-        //user.name = cybertekchicago-1
+        //     key  = value
+        //  os.name =  Windows 10
+        //user.name = recep
         System.out.println("System.getProperty(\"os.name\") = " + System.getProperty("os.name"));
+        //System.getProperty("os.name") = Windows 10
+
         System.out.println("System.getProperty(\"user.name\") = " + System.getProperty("user.name"));
+        //System.getProperty("user.name") = recep
 
     }
 

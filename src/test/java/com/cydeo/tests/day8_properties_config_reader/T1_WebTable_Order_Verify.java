@@ -1,11 +1,15 @@
 package com.cydeo.tests.day8_properties_config_reader;
 
-import com.cydeo.tests.utilities.*;
-import org.openqa.selenium.*;
-import org.testng.*;
-import org.testng.annotations.*;
+import com.cydeo.tests.utilities.WebDriverFactory;
+import com.cydeo.tests.utilities.WebTableUtils;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
-import java.util.concurrent.*;
+import java.util.concurrent.TimeUnit;
 
 public class T1_WebTable_Order_Verify {
 
@@ -71,4 +75,7 @@ public class T1_WebTable_Order_Verify {
         WebTableUtils.orderVerify(driver, "Bart Fisher", "01/16/2021");
 
     }
+
+
+
 }

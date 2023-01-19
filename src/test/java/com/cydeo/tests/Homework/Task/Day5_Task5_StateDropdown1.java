@@ -1,4 +1,4 @@
-package com.cydeo.tests.Homework;
+package com.cydeo.tests.Homework.Task;
 
 import com.cydeo.tests.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
